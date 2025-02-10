@@ -124,8 +124,11 @@ Xem thông tin về một module cụ thể:
 modinfo ext4
 
 Tìm hiểu hệ thống tập tin trong Linux
+
 Liệt kê các thiết bị trong /dev:
+
 ![image](https://github.com/user-attachments/assets/23798c1b-e092-4923-9473-a8e19918afba)
+
 Kiểm tra thông tin CPU và bộ nhớ:
 
 
