@@ -69,3 +69,47 @@ cat /proc/net/tcp
 ## Kết luận
 Mô hình "Everything as a File" giúp Linux quản lý hệ thống dễ dàng, đồng nhất và linh hoạt.
 
+Bài 3: Cách Linux thực hiện Preemptive Multitasking
+
+1. Giải thích Preemptive Multitasking
+
+Preemptive Multitasking là cơ chế đa nhiệm trong đó hệ điều hành có thể giành quyền kiểm soát CPU từ một tiến trình đang chạy để chuyển sang tiến trình khác dựa trên mức độ ưu tiên.
+
+Phân biệt Preemptive và Cooperative Multitasking
+
+Preemptive Multitasking: Hệ điều hành kiểm soát việc chuyển đổi tiến trình dựa trên lịch trình và ưu tiên.
+
+Cooperative Multitasking: Tiến trình tự nguyện nhường CPU khi hoàn thành nhiệm vụ hoặc gọi hàm hệ thống.
+
+2. Vai trò của Linux Scheduler
+
+Linux sử dụng trình lập lịch để quản lý tiến trình, đảm bảo CPU được phân bổ hợp lý.
+
+Completely Fair Scheduler (CFS)
+
+CFS là thuật toán lập lịch chính của Linux, dựa trên ý tưởng:
+
+Mỗi tiến trình có virtual runtime (vruntime), được sử dụng để xác định tiến trình nào sẽ chạy tiếp theo.
+
+Tiến trình có vruntime nhỏ nhất được ưu tiên thực thi trước.
+
+Mức ưu tiên có thể điều chỉnh bằng giá trị nice và priority.
+
+3. Thực hành kiểm chứng
+
+Dùng lệnh sau để kiểm tra mức ưu tiên của các tiến trình:
+
+ps -eo pid,pri,ni,cmd
+
+Đầu ra mẫu:
+
+  PID PRI  NI CMD
+  1234  20   0 /usr/bin/firefox
+  5678  30 -10 /usr/bin/rt-process
+
+PRI: Độ ưu tiên thực tế của tiến trình (số cao hơn nghĩa là ưu tiên thấp hơn).
+
+NI: Giá trị nice (có thể thay đổi bằng nice hoặc renice).
+
+
+
