@@ -81,6 +81,8 @@ Preemptive Multitasking: Hệ điều hành kiểm soát việc chuyển đổi 
 
 Cooperative Multitasking: Tiến trình tự nguyện nhường CPU khi hoàn thành nhiệm vụ hoặc gọi hàm hệ thống.
 
+![image](https://github.com/user-attachments/assets/13abc8d8-a460-4e23-aa9c-1e8d874661f6)
+
 2. Vai trò của Linux Scheduler
 
 Linux sử dụng trình lập lịch để quản lý tiến trình, đảm bảo CPU được phân bổ hợp lý.
@@ -111,5 +113,19 @@ PRI: Độ ưu tiên thực tế của tiến trình (số cao hơn nghĩa là �
 
 NI: Giá trị nice (có thể thay đổi bằng nice hoặc renice).
 
+II- Practice
+Kiểm tra các module kernel đang chạy:
+
+lsmod
+
+![image](https://github.com/user-attachments/assets/215e5621-6357-480b-8d4e-dee6d261b3a2)
+Xem thông tin về một module cụ thể:
+
+modinfo ext4
+
+Tìm hiểu hệ thống tập tin trong Linux
+Liệt kê các thiết bị trong /dev:
+![image](https://github.com/user-attachments/assets/23798c1b-e092-4923-9473-a8e19918afba)
+Kiểm tra thông tin CPU và bộ nhớ:
 
 
