@@ -114,11 +114,25 @@ PRI: Độ ưu tiên thực tế của tiến trình (số cao hơn nghĩa là �
 NI: Giá trị nice (có thể thay đổi bằng nice hoặc renice).
 
 II- Practice
+
+Tạo module 
+
+![image](https://github.com/user-attachments/assets/8101e3e9-5ad6-40cb-9c77-2484f6897182)
+
 Kiểm tra các module kernel đang chạy:
+Add module vào kernel 
+
+![image](https://github.com/user-attachments/assets/53b56f2a-1c72-428a-a7cd-9deae39ff58e)
+
+Kiểm tra: 
+
+![image](https://github.com/user-attachments/assets/e9d83fc7-6f97-4098-9376-56cab6b8ceb2)
+
 
 lsmod
-
 ![image](https://github.com/user-attachments/assets/215e5621-6357-480b-8d4e-dee6d261b3a2)
+
+
 Xem thông tin về một module cụ thể:
 
 modinfo ext4
