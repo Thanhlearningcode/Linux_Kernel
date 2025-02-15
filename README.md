@@ -143,11 +143,13 @@ Viết chương trình tạo 2 tiến trình con.
 Chương trình :
 ![image](https://github.com/user-attachments/assets/1d6c3051-8d88-49ad-acfb-1ba1735a75eb)
 
-![image](https://github.com/user-attachments/assets/4b2b9704-5938-4b8d-9477-e0d206175ac8)
-Dùng nice để điều chỉnh mức độ ưu tiên.
+
+Dùng nice để điều chỉnh mức độ ưu tiên. Cho 2 procces cha con so sánh ai hoàn thành trước để check ưu tiên
 Chương trình :
-![image](https://github.com/user-attachments/assets/4fe6b1a1-05aa-4687-a749-4194c6239a67)
+![image](https://github.com/user-attachments/assets/09d1090f-72c2-4ab8-8571-1230a3b61481)
+
 Kiểm tra ưu tiên :
-![image](https://github.com/user-attachments/assets/19e41012-77ba-414b-8c08-2814512dc00c)
+![image](https://github.com/user-attachments/assets/716108e6-7de3-4f28-814f-ecc295042edc)
+
 
 
