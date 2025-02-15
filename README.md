@@ -131,4 +131,23 @@ Liệt kê các thiết bị trong /dev:
 
 Kiểm tra thông tin CPU và bộ nhớ:
 
+Bài tập :
+Viết chương trình tạo 3 thread in ra thông điệp.
+Sử dụng pthread_create(), pthread_join().
+Kiểm tra ID của từng thread.
+Chương trình :
+![image](https://github.com/user-attachments/assets/19331fbe-20b9-4c68-abc7-49025318efb3)
+
+![image](https://github.com/user-attachments/assets/e5378804-15b2-4fcf-ae0f-5355fd13419a)
+Viết chương trình tạo 2 tiến trình con.
+Chương trình :
+![image](https://github.com/user-attachments/assets/1d6c3051-8d88-49ad-acfb-1ba1735a75eb)
+
+![image](https://github.com/user-attachments/assets/4b2b9704-5938-4b8d-9477-e0d206175ac8)
+Dùng nice để điều chỉnh mức độ ưu tiên.
+Chương trình :
+![image](https://github.com/user-attachments/assets/4fe6b1a1-05aa-4687-a749-4194c6239a67)
+Kiểm tra ưu tiên :
+![image](https://github.com/user-attachments/assets/19e41012-77ba-414b-8c08-2814512dc00c)
+
 
